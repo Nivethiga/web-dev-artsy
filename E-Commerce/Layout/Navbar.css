@@ -1,0 +1,95 @@
+.Navbar{
+    display:flex;
+    padding: 1px;
+    box-shadow: 0 1px 3px -2px black;
+}
+.Navbar2{
+    display:flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: cm;
+    box-shadow: 0 1px 3px -2px black;
+}
+
+.nav-logo{
+    background-color: rgb(217, 147, 253);
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo p{
+    color:black;
+    font-size: 38px;
+    font-weight: 600;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 300px;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+    gap: 30px;
+    cursor: pointer;
+}
+.nav-menu hr{
+    border-radius: 10px;
+    border: none;
+    width: 80%;
+    height: 3px;
+    background-color: black;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-login{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.nav-login button{
+    width:100px;
+    height: 50px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: pink;
+    font-size: 15px;
+    font-weight: 750;
+    background: white;
+}
+.nav-login button:active{
+    background: lightskyblue;
+}
+.nav-cartc{
+    width: 19px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size:14px ;
+    background: red;
+    color: aliceblue;
+}
+.abc{
+    background: linear-gradient(180deg , #fde1ff, #e1ffea22 100%);
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 2px;
+}
+.ab{
+    background-color: rgb(217, 147, 253);
+    font-size: xx-large;
+    
+}
